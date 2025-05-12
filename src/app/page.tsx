@@ -6,19 +6,35 @@ import Fpicker2ts from "@/components/hsciifp/Fpicker2ts";
 import {  SetStateAction, useState } from 'react';
 
 export default function Home() {
-	const sampletkst = `test: select language binary/inglish4/... n see changes vere(here).
-x.com=xmerica=America=Aks.com
-zawa8.vercel.App is now muwed to ztr8.Vercel.app(new)
-whitehome=wvitevouse car=cAb=cxb
-ziro wn two three four fiwe siks sewen
-0123 4567 89LY VWPF . 4finger_mxths . 8+8=10=wnti=4*4
-eight nine ten twelwe dblu purn fiwn wnti`;
   const iplaceholer = `input: replace/paste here.ԃis is transliterator for phonetical languages.
 steps to use : 1. pls replace ԃis tekst to india/nepal/sinhl/bangla.
 1.1 to copy unicode google search : wiki india in indian languages
 2. pls press 8aiuehocg flxg btn.
-3. result : tekst area down.`;	
- const b3tekst = `jzqk+h<br>JZQK`;
+3. result : tekst area down.
+=======
+x.com=xmerica=America=Aks.com
+whitehome=wvitevouse car=cAb=cxb
+ziro wn two three four fiwe siks sewen
+0123 4567 89LY VWPF . 4finger_mxths . 8+8=10=wnti=4*4
+eight nine ten twelw dblu purn fiwn wnti
+=======
+A=x≠a (xpple=Apple) a=>car cAt=cxt rxt=rAt=mouse=cuva fast
+H=v≠h  wveel=wHeel kvani=kHani=story 
+======
+4 finger 1 hxnd mxjhs : 4f1h_mxjhs :  
+0123 4567 89LY VWPF
+ten=L=8+2 yilewen=Y=8+3 twelw=V=8+4
+W=dblu=8+4+1  P=purn=8+4+2
+F=fiwn=8+4+2+1 = 10 - 1 = wnti - 1
+4*4=10=wnti=8+8=F+1=L+6=9+7
+======
+w =>  fiwe (5)  znwri frwri nowember grow crow wn(1) liwe wiolet_color
+x => xray xpple cxt rxt(mouse)   6 = six = siks
+z => zug zune zuly  j(jhrow=Jrow)  
+k => king/kueen kuick kuestion  q=> qhis(this) qhxt(thxt=thAt)
+======
+a->ram i->sijaram u->vnuman e->gnesh o->gowinq
+======`;	
   const hsciistrobz = new hsciistr(hsciistr.enum_from.ascii_and_indik,hsciistr.enum_tu.all);
   const [iteksta, set_iteksta] = useState("");
   const handle_ita_change = (event: { target: { value: SetStateAction<string>; }; }) => { set_iteksta(event.target.value); };
