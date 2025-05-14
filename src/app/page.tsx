@@ -35,7 +35,7 @@ k => king/kueen kuick kuestion  q=> qhis(this) qhxt(thxt=thAt)
 ======
 a->ram i->sijaram u->vnuman e->gnesh o->gowinq
 ======`;	
-  const hsciistrobz = new hsciistr(hsciistr.enum_from.ascii_and_indik,hsciistr.enum_tu.all);
+  const hsciistrobz = new hsciistr(hsciistr.from_dikt.ascii_and_indik,hsciistr.tu_dikt.all);
   const [iteksta, set_iteksta] = useState("");
   const handle_ita_change = (event: { target: { value: SetStateAction<string>; }; }) => { set_iteksta(event.target.value); };
   function on_kh2uK() { set_iteksta(hsciistrobz.setistr(iteksta).kh2hindiK().istr); }
