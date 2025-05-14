@@ -54,7 +54,8 @@ a->ram i->sijaram u->vnuman e->gnesh o->gowinq
       <div className="flex gap-2 items-center flex-col sm:flex-row"><Fpicker2ts/></div>
         <div className="flex gap-1 items-center flex-col sm:flex-row">
 			<button className="" onClick={on_eu2l}>
-				<Image src="/flggood.png" alt="modern india languages" width={100} height={100}/>
+				className="bg-transparent hover:bg-green-500 text-sm text-green-700 hover:text-black border border-green hover:border-transparent w-[100px] h-[100px]">
+				zawa8 lxng8 zs8
 			</button>
 			<button onClick={on_xvjqK2u}
 				className="bg-transparent hover:bg-green-500 text-sm text-green-700 hover:text-black border border-green hover:border-transparent w-[100px] h-[100px]">
