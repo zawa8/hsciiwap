@@ -6,6 +6,9 @@ import Fpicker2ts from "@/components/hsciifp/Fpicker2ts";
 import {  SetStateAction, useState } from 'react';
 
 export default function Home() {
+  const fontekst = `abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+0123 4567 89LY VWPF 4*4=10=wnti=8+8`;
   const iplaceholer = `input: replace/paste here.ԃis is transliterator for phonetical languages.
 steps to use : 1. pls replace ԃis tekst to india/nepal/sinhl/bangla.
 1.1 to copy unicode google search : wiki india in indian languages
@@ -51,11 +54,13 @@ a->ram i->sijaram u->vnuman e->gnesh o->gowinq
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-      <div className="flex gap-2 items-center flex-col sm:flex-row"><Fpicker2ts/></div>
+      <div className="flex gap-2 items-center flex-col sm:flex-row">
+			<Fpicker2ts/>
+          <Textarea id="fta"  rows={3} className="w-full border-black" placeholder={fontekst} />
+		</div>
         <div className="flex gap-1 items-center flex-col sm:flex-row">
 			<button className="" onClick={on_eu2l}>
-				className="bg-transparent hover:bg-green-500 text-sm text-green-700 hover:text-black border border-green hover:border-transparent w-[100px] h-[100px]">
-				zawa8 lxng8 zs8
+				<Image src="/flggood.png" alt="modern india languages" width={100} height={100}/>
 			</button>
 			<button onClick={on_xvjqK2u}
 				className="bg-transparent hover:bg-green-500 text-sm text-green-700 hover:text-black border border-green hover:border-transparent w-[100px] h-[100px]">
